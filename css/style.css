@@ -1861,6 +1861,7 @@ td.table-hightlighter__desc-wrap{text-align:left;padding:22px 30px}
 .footer .inner {max-width:1840px}
 .footer__branding {max-width:205px}
 .footer__branding, .footer__branding-image{display:block}
+.footer__branding-image{width: 13em; height: 4em; object-fit: cover;}
 .footer__content{display:flex;justify-content:space-between;align-items:flex-end}
 .footer__info{width:40%;min-width:40%}
 .footer__addr{margin-top:25px}
