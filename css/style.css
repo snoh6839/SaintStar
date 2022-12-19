@@ -91,7 +91,7 @@
 /* Main Navigaion:Common */
 .main-nav .main-nav__text{position:relative;font-family:'Poppins','notokr',sans-serif}
 .main-nav .main-nav__item{display:flex;align-items:center;position:relative;text-align:center;}
-.main-nav .main-nav__sub{position:absolute;top:100%;left:50%;width:100%;min-width:180px;visibility:hidden;opacity:0;padding-bottom:35px;background-color:#0467b3;transform:translateX(-50%);transition:opacity .3s, visibility .3s;z-index:2001}
+.main-nav .main-nav__sub{position:absolute;top:100%;left:50%;width:100%;min-width:180px;visibility:hidden;opacity:0;padding-bottom:35px;background-color:#2d41f4;transform:translateX(-50%);transition:opacity .3s, visibility .3s;z-index:2001}
 .main-nav .main-nav__sub .main-nav__link{display:flex;justify-content:center;align-items:center;width:100%;font-size:15px;font-weight:500;color:#9cafb8}
 
 /* Main Navigaion:Depth1 */
@@ -109,7 +109,7 @@
 .main-nav .main-nav__item.depth2.has-child > .main-nav__link::after{content:'';display:inline-block;position:absolute;right:15px;top:50%;width:5px;height:5px;border-right:1px solid #777;border-bottom:1px solid #777;transform:translateY(-50%) rotate(-45deg)}
 
 /* Main Navigaion:Active, Hover */
-.main-nav .main-nav__item.depth1.hover > .main-nav__link{background-color:#0467b3}
+.main-nav .main-nav__item.depth1.hover > .main-nav__link{background-color:#2d41f4}
 .main-nav .main-nav__item.depth1.hover > .main-nav__link::after{width:80%;visibility:visible;opacity:1}
 .main-nav .main-nav__item.depth1.hover > .main-nav__link::before {visibility:visible;opacity:1}
 .main-nav .main-nav__item.depth2.act > .main-nav__link{color:#fff}
