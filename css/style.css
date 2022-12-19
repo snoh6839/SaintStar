@@ -292,7 +292,7 @@ body:not(.home) .header.floating .main-nav .main-nav__item.depth1.hover > .main-
 
 /* Main Visual */
 .main-visual {position:relative;height:100vh;max-height:1080px;background:url("../img/bg_main_visual.jpg") no-repeat top left / cover}
-.main-visual::after {content:"";position:absolute;top:0;right:0;width:18.23%;height:100%;}
+.main-visual::after {content:"";position:absolute;top:0;right:0;width:18.23%;height:100%;background-color:#fff}
 .main-visual__slider-wrap {display:flex;align-items:flex-end;position:absolute;bottom:0;right:0;width:80%;max-width:1210px;height:calc(100% - 120px);max-height:850px;z-index:50}
 .main-visual__slider {min-width:1px;height:100%;border-radius:60px 0 0 0;background-color:#003478}
 .main-visual__slider .slick-list, .main-visual__slider .slick-track {height:100%}
