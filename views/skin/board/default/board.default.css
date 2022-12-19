@@ -318,7 +318,6 @@
 	.share-box__btn-copy:hover{color:#fff;background-color:#222}
 }
 
-/* 怨듭쑀�섍린 �덉씠�댄뙘�� */
 .share-box__title-wrap {position:relative;padding:20px 15px 15px;border-bottom:1px solid #eee;}
 .share-box__btn-close.icon {position:absolute;top:20px;right:20px;font-size:22px;color:#222;border:none;background-color:transparent;}
 .share-box__body-wrap {padding:20px 15px;border-bottom:1px solid #eee;}
