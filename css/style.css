@@ -1719,6 +1719,18 @@ td.table-hightlighter__desc-wrap{text-align:left;padding:22px 30px}
 .board-view__img-wrap img{max-width:100%}
 .board-view__footer{display:flex}
 
+body::after{
+	/* 소스만 다운받고 화면은 나태내지 않는다. (숨김 처리) */
+    position:absolute;
+    width:0;
+    height:0;
+    overflow:hidden;
+    z-index:-1;
+
+    /* load images */
+    content:url(../img/main_visual_img1.jpg) ; /* 필요한 이미지 소스들 다운 */
+}
+
 @media (max-width:1600px){
 	.upcoming-list__img-wrap{position:relative;top:auto;right:auto;transform:none}
 	.upcoming-list__slide-inner{display:flex;justify-content: space-between;}
