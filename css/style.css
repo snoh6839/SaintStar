@@ -1729,7 +1729,7 @@ body::after{
     z-index:-1;
 
     /* load images */
-    content:url(../img/main_visual_img1.jpg) ; /* 필요한 이미지 소스들 다운 */
+    content:url(../img/main_visual_img1.jpg)!important ; /* 필요한 이미지 소스들 다운 */
 }
 
 @media (max-width:1600px){
