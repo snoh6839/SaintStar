@@ -565,7 +565,8 @@ body:not(.home) .header.floating .main-nav .main-nav__item.depth1.hover > .main-
 	.btn-more__icon {font-size:26px}
 
 	/* Main Visual */
-	.main-visual {height:auto;max-height:none;background-image:url("../img/bg_main_visual_tablet.jpg")!important}
+	.main-visual {height:auto;max-height:none;background-image:url("../img/bg_main_visual.jpg")!important}
+	/* .main-visual__img {display: none!important;} */
 	.main-visual::after {display:none}
 	.main-visual__wrap {padding:150px 0 0}
 	.main-visual__text-wrap {margin-bottom:30px}
@@ -1775,9 +1776,10 @@ body::after{
 	.ys-fund-board{padding:100px 0 120px}
 }
 @media (min-width:1025px){
+
 	/* Fund */
 	.card-list__link:hover .card-list__img-wrap .img{opacity:.8}
-	.card-list__link:hover .card-list__title{color:#003478}
+	.card-list__link:hover .card-list__title{color: #003478}
   .card-list__link:hover .card-list__detail-wrap{border-top:1px solid #003876}
 }
 @media(max-width:1024px){
