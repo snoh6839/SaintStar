@@ -1188,7 +1188,7 @@ body:not(.home) .header.floating .main-nav .main-nav__item.depth1.hover > .main-
 .ceo-greeting__desc:last-child{margin-bottom:0}
 .ceo-greeting__sign{margin-top:30px;font-weight:600;text-align:right}
 .ceo-greeting__sign .point-color__light{font-size:18px}
-.ceo-greeting__name{font-family: 'Nanum Brush Script', cursive; margin-top:10px;font-size:48px;color:#444444; margin-right: 80px;}
+.ceo-greeting__name{font-family: 'Nanum Brush Script', cursive; font-weight: 200; margin-top:10px;font-size:48px;color:#444444; margin-right: 80px;}
 .ceo-greeting__name > img {position:absolute; width:100%;max-width:160px; height:100%;max-height:160px; }
 
 /* History */
