@@ -1187,7 +1187,8 @@ body:not(.home) .header.floating .main-nav .main-nav__item.depth1.hover > .main-
 .ceo-greeting__desc:last-child{margin-bottom:0}
 .ceo-greeting__sign{margin-top:30px;font-weight:600;text-align:right}
 .ceo-greeting__sign .point-color__light{font-size:18px}
-.ceo-greeting__name{margin-top:10px;font-size:24px;color:#444444}
+.ceo-greeting__name{margin-top:10px;font-size:24px;color:#444444; margin-right: 50px;}
+.ceo-greeting__name > img {position:absolute; width:100%;max-width:60px; height:100%;max-height:60px; right: 0px;}
 
 /* History */
 .ys-history .nxm-tab-7{margin-top:70px}
