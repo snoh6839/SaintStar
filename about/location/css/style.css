@@ -1930,3 +1930,11 @@ body::after{
 	.footer__copyright {font-size:12px}
 	.btn-desktop-top {width:40px;height:40px}
 }
+
+#map {
+
+}
+
+#map .map {
+	width: 50em; height: 35em; background:url("../img/map.png") no-repeat top center / contain;
+}
