@@ -233,27 +233,33 @@
           <!-- Organization -->
           <div class="sub-main animate-element fadeInUp start-animate animated">
             <h4 class="subpage-title"><strong class="point-color__deep">올바르게 할 수 있는 능력 </strong> <br>지식을 습득한 사람은 항상 그것을 남에게 이해시켜야 할 책임이 있다.</h4>
-            <figure class="sub-main__img-wrap org__img-wrap"><img src="./img/organization_img.png" class="sub-main__img img" alt="연세대학교 전경 이미지"></figure>
           </div>
 
 
           <article class="col-style">
             <h4 class="col-style__left article-title  animate-element fadeInRight">지도</h4>
             <div>
-                <div id="map" style="width:500px;height:400px;"></div>
-                <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=발급받은 APP KEY를 넣으시면 됩니다."></script>
-                <script>
-                  var container = document.getElementById('map');
-                  var options = {
-                    center: new kakao.maps.LatLng(33.450701, 126.570667),
-                    level: 3
+              <div id="map" style="width:500px;height:400px;"></div>
+              <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=a1cefc241005608ab688d344884d4d3b"></script>
+              <script>
+                var mapContainer = document.getElementById('map'), // 지도를 표시할 div
+                  mapOption = {
+                    center: new kakao.maps.LatLng(35.84166585991581, 128.6120864872793), // 지도의 중심좌표
+                    level: 3 // 지도의 확대 레벨
                   };
 
-                  var map = new kakao.maps.Map(container, options);
-                </script>
-              </body>
+                var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
 
-              </html>
+                // 지도를 클릭한 위치에 표출할 마커입니다
+                var marker = new kakao.maps.Marker({
+                  // 지도 중심좌표에 마커를 생성합니다
+                  position: map.getCenter()
+                });
+                // 지도에 마커를 표시합니다
+                marker.setMap(map);
+
+                });
+              </script>
             </div>
           </article>
           <!--// 행정팀 -->
