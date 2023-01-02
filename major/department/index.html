@@ -13,7 +13,7 @@
   <meta name="keywords" content="Saint Star, Saint Star College">
 
   <!-- Title -->
-  <title>오시는 길</title>
+  <title>학과소개</title>
   <!-- Favicon Tag -->
   <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon.png">
 
@@ -35,9 +35,10 @@
   <script src="./js/common/common.js"></script>
   <script src="./js/common/navigation.js"></script>
   <script src="./js/common/animation.js"></script>
-  <script src="./js/functions/nxcms.js"></script>
-  <script src="./js/functions/slide/func.slide.js"></script>
+  <script src="./js/function/nxcms.js"></script>
+  <script src="./js/function/slide/func.slide.js"></script>
   <script src="./js/main.js"></script>
+  <script src="./js/department.js"></script>
   <!-- Plugin : Slick -->
   <!-- <link rel="stylesheet" href="../plugin/slick/slick.css" />
   <script src="./plugin/slick/slick.min.js"></script> -->
@@ -63,30 +64,24 @@
           </h1>
           <nav id="header__navigation" class="header__navigation">
             <ul id="main-nav" class="main-nav">
-              <li class="main-nav__item __main-nav__item depth1 act has-child"> <a href="../greeting/index.html" class="main-nav__link" data-page_transition="1"><span class="main-nav__text">SS칼리지소개</span></a>
+              <li class="main-nav__item __main-nav__item depth1 has-child"> <a href="../about/greeting/index.html" class="main-nav__link" data-page_transition="1"><span class="main-nav__text">SS칼리지소개</span></a>
                 <ul class="main-nav__sub">
-                  <li class="main-nav__item __main-nav__item depth2"> <a href="../greeting/index.html" class="main-nav__link" data-page_transition="1"><span class="main-nav__text">인사말</span></a></li>
+                  <li class="main-nav__item __main-nav__item depth2"> <a href="../about/greeting/index.html" class="main-nav__link" data-page_transition="1"><span class="main-nav__text">인사말</span></a></li>
                   <!-- <li class="main-nav__item __main-nav__item depth2"> <a href="/about/history" class="main-nav__link" data-page_transition="1"><span class="main-nav__text">연혁</span></a></li> -->
-                  <li class="main-nav__item __main-nav__item depth2"> <a href="../organization/index.html" class="main-nav__link" data-page_transition="1"><span class="main-nav__text">조직 및 행정안내</span></a></li>
+                  <li class="main-nav__item __main-nav__item depth2"> <a href="../about/organization/index.html" class="main-nav__link" data-page_transition="1"><span class="main-nav__text">조직 및 행정안내</span></a></li>
                   <!-- <li class="main-nav__item __main-nav__item depth2"> <a href="/about/student" class="main-nav__link" data-page_transition="1"><span class="main-nav__text">학생회 및 동아리</span></a></li> -->
-                  <li class="main-nav__item __main-nav__item depth2 act"> <a href="./index.html" class="main-nav__link" data-page_transition="1"><span class="main-nav__text">오시는 길</span></a></li>
+                  <li class="main-nav__item __main-nav__item depth2"> <a href="../about/location/index.html" class="main-nav__link" data-page_transition="1"><span class="main-nav__text">오시는 길</span></a></li>
                 </ul>
               </li>
-              <li class="main-nav__item __main-nav__item depth1 has-child"> <a href="/major" class="main-nav__link" data-page_transition="1"><span class="main-nav__text">과정안내</span></a>
+              <li class="main-nav__item __main-nav__item depth1 act has-child"> <a href="./index.html" class="main-nav__link" data-page_transition="1"><span class="main-nav__text">과정안내</span></a>
+                <!-- <button type="button"
+                  class="main-nav__child--button">Open</button> -->
                 <ul class="main-nav__sub">
-                  <li class="main-nav__item __main-nav__item depth2"> <a href="/major/department" class="main-nav__link" data-page_transition="1"><span class="main-nav__text">자기경영학과</span></a></li>
-                  <li class="main-nav__item __main-nav__item depth2"> <a href="/major/graduate" class="main-nav__link" data-page_transition="1"><span class="main-nav__text">자기경쟁력개발학과</span></a></li>
-                  <li class="main-nav__item __main-nav__item depth2"> <a href="/major/graduate" class="main-nav__link" data-page_transition="1"><span class="main-nav__text">인간과학과</span></a></li>
-                  <li class="main-nav__item __main-nav__item depth2"> <a href="/major/graduate" class="main-nav__link" data-page_transition="1"><span class="main-nav__text">관계과학과</span></a></li>
-                  <li class="main-nav__item __main-nav__item depth2"> <a href="/major/graduate" class="main-nav__link" data-page_transition="1"><span class="main-nav__text">통찰학과</span></a></li>
+                  <li class="main-nav__item __main-nav__item depth2 act"> <a href="./index.html" class="main-nav__link" data-page_transition="1"><span class="main-nav__text">학과소개</span></a></li>
+                  <li class="main-nav__item __main-nav__item depth2"> <a href="../research/index.html" class="main-nav__link" data-page_transition="1"><span class="main-nav__text">연구</span></a></li>
                 </ul>
               </li>
-              <li class="main-nav__item __main-nav__item depth1 has-child"> <a href="/research" class="main-nav__link" data-page_transition="1"><span class="main-nav__text">연구</span></a>
-                <ul class="main-nav__sub">
-                  <li class="main-nav__item __main-nav__item depth2"> <a href="/research/institute" class="main-nav__link" data-page_transition="1"><span class="main-nav__text">정신과학과 물리의 초융합</span></a></li>
-                  <li class="main-nav__item __main-nav__item depth2"> <a href="/research/bk21" class="main-nav__link" data-page_transition="1"><span class="main-nav__text">정신의 현미경 석삼극의 증명에 대한 연구 초나노</span></a></li>
-                </ul>
-              </li>
+
               <li class="main-nav__item __main-nav__item depth1 has-child"> <a href="/education" class="main-nav__link" data-page_transition="1"><span class="main-nav__text">교육</span></a>
                 <ul class="main-nav__sub">
                   <li class="main-nav__item __main-nav__item depth2"> <a href="/education/admission" class="main-nav__link" data-page_transition="1"><span class="main-nav__text">입학안내</span></a></li>
@@ -125,33 +120,24 @@
         <div class="mobile-menu__content scrollbar--default">
           <div class="inner">
             <ul id="mobile-nav" class="mobile-nav">
-              <li class="main-nav__item __main-nav__item depth1 act has-child"> <a href="../greeting/index.html" class="main-nav__link" data-page_transition="1"><span class="main-nav__text">SS칼리지소개</span></a><button type="button"
+              <li class="main-nav__item __main-nav__item depth1 has-child"> <a href="../about/greeting/index.html" class="main-nav__link" data-page_transition="1"><span class="main-nav__text">SS칼리지소개</span></a><button type="button"
                   class="main-nav__child--button">Open</button>
                 <ul class="main-nav__sub">
-                  <li class="main-nav__item __main-nav__item depth2"> <a href="../greeting/index.html" class="main-nav__link" data-page_transition="1"><span class="main-nav__text">인사말</span></a></li>
+                  <li class="main-nav__item __main-nav__item depth2"> <a href="../about/greeting/index.html" class="main-nav__link" data-page_transition="1"><span class="main-nav__text">인사말</span></a></li>
                   <!-- <li class="main-nav__item __main-nav__item depth2"> <a href="/about/history" class="main-nav__link" data-page_transition="1"><span class="main-nav__text">연혁</span></a></li> -->
-                  <li class="main-nav__item __main-nav__item depth2"> <a href="../organization/index.html" class="main-nav__link" data-page_transition="1"><span class="main-nav__text">조직 및 행정안내</span></a></li>
+                  <li class="main-nav__item __main-nav__item depth2"> <a href="../about/organization/index.html" class="main-nav__link" data-page_transition="1"><span class="main-nav__text">조직 및 행정안내</span></a></li>
                   <!-- <li class="main-nav__item __main-nav__item depth2"> <a href="/about/student" class="main-nav__link" data-page_transition="1"><span class="main-nav__text">학생회 및 동아리</span></a></li> -->
-                  <li class="main-nav__item __main-nav__item depth2 act"> <a href="./index.html" class="main-nav__link" data-page_transition="1"><span class="main-nav__text">오시는 길</span></a></li>
+                  <li class="main-nav__item __main-nav__item depth2"> <a href="../about/location/index.html" class="main-nav__link" data-page_transition="1"><span class="main-nav__text">오시는 길</span></a></li>
                 </ul>
               </li>
-              <li class="main-nav__item __main-nav__item depth1 has-child"> <a href="/major" class="main-nav__link" data-page_transition="1"><span class="main-nav__text">과정안내</span></a><button type="button"
+              <li class="main-nav__item __main-nav__item depth1 act has-child"> <a href="./index.html" class="main-nav__link" data-page_transition="1"><span class="main-nav__text">과정안내</span></a><button type="button"
                   class="main-nav__child--button">Open</button>
                 <ul class="main-nav__sub">
-                  <li class="main-nav__item __main-nav__item depth2"> <a href="/major/department" class="main-nav__link" data-page_transition="1"><span class="main-nav__text">자기경영학과</span></a></li>
-                  <li class="main-nav__item __main-nav__item depth2"> <a href="/major/graduate" class="main-nav__link" data-page_transition="1"><span class="main-nav__text">자기경쟁력개발학과</span></a></li>
-                  <li class="main-nav__item __main-nav__item depth2"> <a href="/major/graduate" class="main-nav__link" data-page_transition="1"><span class="main-nav__text">인간과학과</span></a></li>
-                  <li class="main-nav__item __main-nav__item depth2"> <a href="/major/graduate" class="main-nav__link" data-page_transition="1"><span class="main-nav__text">관계과학과</span></a></li>
-                  <li class="main-nav__item __main-nav__item depth2"> <a href="/major/graduate" class="main-nav__link" data-page_transition="1"><span class="main-nav__text">통찰학과</span></a></li>
+                  <li class="main-nav__item __main-nav__item depth2 act"> <a href="./index.html" class="main-nav__link" data-page_transition="1"><span class="main-nav__text">학과소개</span></a></li>
+                  <li class="main-nav__item __main-nav__item depth2"> <a href="../research/index.html" class="main-nav__link" data-page_transition="1"><span class="main-nav__text">연구</span></a></li>
                 </ul>
               </li>
-              <li class="main-nav__item __main-nav__item depth1 has-child"> <a href="/research" class="main-nav__link" data-page_transition="1"><span class="main-nav__text">연구</span></a><button type="button"
-                  class="main-nav__child--button">Open</button>
-                <ul class="main-nav__sub">
-                  <li class="main-nav__item __main-nav__item depth2"> <a href="/research/institute" class="main-nav__link" data-page_transition="1"><span class="main-nav__text">정신과학과 물리의 초융합</span></a></li>
-                  <li class="main-nav__item __main-nav__item depth2"> <a href="/research/business" class="main-nav__link" data-page_transition="1"><span class="main-nav__text">정신의 현미경 석삼극의 증명에 대한 연구 초나노</span></a></li>
-                </ul>
-              </li>
+
               <li class="main-nav__item __main-nav__item depth1 has-child"> <a href="/education" class="main-nav__link" data-page_transition="1"><span class="main-nav__text">교육</span></a><button type="button"
                   class="main-nav__child--button">Open</button>
                 <ul class="main-nav__sub">
@@ -189,7 +175,7 @@
           <div class="sub-visual__bg">
             <div class="sub-visual__bg-img"></div>
           </div>
-          <h2 class="sub-visual__title">오시는 길</h2>
+          <h2 class="sub-visual__title">학과소개</h2>
         </div>
       </section>
       <!--// Sub Visual -->
@@ -223,83 +209,157 @@
       <!--// Breadcrumb Menu -->
 
       <!-- Sub Page Top -->
-      <section id="sub-top" class="sub-top animate-element fadeInUp start-animate animated">
-        <h3 class="sub-top__title">칼리지 오시는 길</h3>
+      <section id="sub-top" class="sub-top animate-element fadeInUp">
+        <h3 class="sub-top__title">학과소개</h3>
       </section>
       <!--// Sub Page Top -->
-      <section id="print_area" class="org">
-        <div class="inner">
+      <section id="print_area" class="ys-major has-side-nav">
 
-          <!-- Organization -->
-          <div class="sub-main animate-element fadeInUp start-animate animated">
-            <h4 class="subpage-title"><strong class="point-color__deep">올바르게 할 수 있는 능력 </strong> <br>지식을 습득한 사람은 항상 그것을 남에게 이해시켜야 할 책임이 있다.</h4>
-          </div>
+        <div id="view-default">
 
+          <div id="view-top" class="inner has-side-nav__inner has-axis">
 
-          <article class="col-style">
-            <h4 class="col-style__left article-title  animate-element fadeInRight">지도</h4>
-            <div>
-              <div id="map">
-                <div class="map" alt="정적지도이미지"></div>
-                <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=a1cefc241005608ab688d344884d4d3b"></script>
-                <script>
-                var mapContainer = document.getElementById('map'), // 지도를 표시할 div
-                mapOption = {
-                  center: new kakao.maps.LatLng(35.84166585991581, 128.6120864872793), // 지도의 중심좌표
-                  level: 3 // 지도의 확대 레벨
-                };
-
-                var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
-
-                // 지도를 클릭한 위치에 표출할 마커입니다
-                var marker = new kakao.maps.Marker({
-                  // 지도 중심좌표에 마커를 생성합니다
-                  position: map.getCenter()
-                });
-                // 지도에 마커를 표시합니다
-                marker.setMap(map);
-
-              });
-              </script>
-
+            <!-- LNB -->
+            <article id="side-nav" class="has-side-nav__menu">
+              <div id="detail-box" class="nxm-tab-8">
+                <ul class="nxm-tab-8__list first">
+                  <li class="nxm-tab-8__item active">
+                    <a href="#" class="nxm-tab-8__link">학과</a>
+                    <ul class="nxm-tab-8__sub-list">
+                      <li class="nxm-tab-8__sub-item active first"><a href="#" class="nxm-tab-8__sub-link">자기경영학과 </a></li>
+                      <li class="nxm-tab-8__sub-item"><a href="#" class="nxm-tab-8__sub-link">자기경쟁력 개발학과</a></li>
+                      <li class="nxm-tab-8__sub-item"><a href="#" class="nxm-tab-8__sub-link">인간과학과</a></li>
+                      <li class="nxm-tab-8__sub-item"><a href="#" class="nxm-tab-8__sub-link">지구천문대기학부</a></li>
+                      <li class="nxm-tab-8__sub-item"><a href="#" class="nxm-tab-8__sub-link">통찰<br>Insight 학과 협동과정</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <!-- <ul class="nxm-tab-8__list last">
+                  <li class="nxm-tab-8__item">
+                    <a href="#" class="nxm-tab-8__link">계약학과</a>
+                    <ul class="nxm-tab-8__sub-list">
+                      <li class="nxm-tab-8__sub-item"><a href="#" class="nxm-tab-8__sub-link">광과학공학 협동과정</a></li>
+                    </ul>
+                  </li>
+                </ul> -->
               </div>
-              <a class="nxm-location-21__desc-title" href="https://map.kakao.com/link/map/35.84166585991581,128.6120864872793">카카오 지도 바로가기</a>
+            </article>
+            <!--// LNB -->
+
+            <div class="has-side-nav__contents __has-side-nav__contents">
+              <!-- 자기경영학과  -->
+              <article id="graduate-math" class="side-style">
+                <div class="side-style__left animate-element fadeInRight">
+                  <h5 class="article-title">자기경영학과 </h5>
+                </div>
+                <div class="side-style__right animate-element fadeInLeft">
+                  <div class="side-style__wrap row">
+                    <figure class="side-style__img-wrap">
+                      <img src="./img/department_img1.jpg" class="img" alt="">
+                    </figure>
+                    <div class="side-style__desc-wrap">
+                      <p class="side-style__desc col-sub">초융합과 초 나노의 접목으로 세상의 흐름을 알고 변화와 위기관리를 위한 자기 경영의 인성교육, 개인의 사명과 가치를 찾고 1인 미디어브랜딩 기획을 비롯하여 자신의 인재 가치를 창출하고 브랜딩하기 위한 과정으로 자신에 대해 바로 알고 나아갈 길을 점검하는 시간으로서 준비된 과정이다.</p>
+                      <!-- <div class="btn-wrap">
+                        <a href="https://math.yonsei.ac.kr/math/" class="btn-line"><span class="btn-line__text">수학과</span><i class="btn-line__icon xi-external-link"></i></a>
+                        <a href="https://cse.yonsei.ac.kr/cse/" class="btn-line"><span class="btn-line__text">계산과학공학과</span><i class="btn-line__icon xi-external-link"></i></a>
+                      </div> -->
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <!--// 자기경영학과  -->
+
+              <!-- 자기경쟁력 개발학과 -->
+              <article id="graduate-physics" class="side-style">
+                <div class="side-style__left animate-element fadeInRight">
+                  <h5 class="article-title">자기경쟁력 개발학과</h5>
+                </div>
+                <div class="side-style__right animate-element fadeInLeft">
+                  <div class="side-style__wrap row">
+                    <figure class="side-style__img-wrap">
+                      <img src="./img/department_img2.jpg" class="img" alt="">
+                    </figure>
+                    <div class="side-style__desc-wrap">
+                      <p class="side-style__desc col-sub">자신의 캐릭터분석과 커뮤니케이션스피치, 프레젠테이션스킬, 마케팅기획, SNS/스마트IT 교육과정을 통한 자기 진화 코칭과정으로 각자가 자기경쟁력을 갖추고 21c 신지식인으로 살아가기 위한 스킬을 구축하는 다양한 경험의 시간이 될 것이다.</p>
+                      <!-- <div class="btn-wrap">
+                        <a href="https://physics.yonsei.ac.kr/phya/" class="btn-line"><span class="btn-line__text">자기경쟁력 개발학과</span><i class="btn-line__icon xi-external-link"></i></a>
+                      </div> -->
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <!--// 자기경쟁력 개발학과 -->
+
+              <!-- 인간과학과 -->
+              <article id="graduate-chemistry" class="side-style">
+                <div class="side-style__left animate-element fadeInRight">
+                  <h5 class="article-title">인간과학과</h5>
+                </div>
+                <div class="side-style__right animate-element fadeInLeft">
+                  <div class="side-style__wrap row">
+                    <figure class="side-style__img-wrap">
+                      <img src="./img/department_img3.jpg" class="img" alt="">
+                    </figure>
+                    <div class="side-style__desc-wrap">
+                      <p class="side-style__desc col-sub">인간의 정체성과 역사적 재개념형성을 통한 Human Science의 신개념의 과정으로 통찰하고 수행과 수련을 통한 자기진화에 참여하는 새로운 경험과 탐구의 시간으로 첨단사회에 발맞춘 창의적사고를 위한 공소법코칭을 할 것이다.</p>
+                      <!-- <div class="btn-wrap">
+                        <a href="https://chem.yonsei.ac.kr" class="btn-line"><span class="btn-line__text">인간과학과</span><i class="btn-line__icon xi-external-link"></i></a>
+                      </div> -->
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <!--// 인간과학과 -->
+
+              <!-- 관계과학과 -->
+              <article id="graduate-air" class="side-style">
+                <div class="side-style__left animate-element fadeInRight">
+                  <h5 class="article-title">관계과학과</h5>
+                </div>
+                <div class="side-style__right animate-element fadeInLeft">
+                  <div class="side-style__wrap row">
+                    <figure class="side-style__img-wrap">
+                      <img src="./img/department_img4.jpg" class="img" alt="">
+                    </figure>
+                    <div class="side-style__desc-wrap">
+                      <p class="side-style__desc col-sub">불가의 연기이론과 심리학의 새로운 접근을 시도하여 관계코칭과 커뮤니케이션 스킬, 자기실현의 과정을 탐구해나갈 과정을 통해 관계와 행동 수련에 대한 통찰의 시간</p>
+                      <!-- <div class="btn-wrap">
+                        <a href="http://geo.yonsei.ac.kr/" class="btn-line"><span class="btn-line__text">지구시스템과학과</span><i class="btn-line__icon xi-external-link"></i></a>
+                        <a href="https://astro.yonsei.ac.kr/galaxy/index.do" class="btn-line"><span class="btn-line__text">천문우주학과</span><i class="btn-line__icon xi-external-link"></i></a>
+                        <a href="https://atmos.yonsei.ac.kr/" class="btn-line"><span class="btn-line__text">대기과학과</span><i class="btn-line__icon xi-external-link"></i></a>
+                      </div> -->
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <!--// 관계과학과 -->
+
+              <!-- 통찰<br>Insight 학과 -->
+              <article id="graduate-semiconductor" class="side-style">
+                <div class="side-style__left animate-element fadeInRight">
+                  <h5 class="article-title">통찰<br>Insight 학과</h5>
+                </div>
+                <div class="side-style__right animate-element fadeInLeft">
+                  <div class="side-style__wrap row">
+                    <figure class="side-style__img-wrap">
+                      <img src="./img/department_img8.jpg" class="img" alt="">
+                    </figure>
+                    <div class="side-style__desc-wrap">
+                      <p class="side-style__desc col-sub">과거학문인 천부경에 수를 입혀 과학적이고 수리적 해석을 확립하여 자연의 이치를 설명하고 공과 마음의 규명을 과학적으로 소개하고 만물 생성 소멸의 원리를 디지털개념으로 풀이하는 Saint Star College의 스페셜 과정으로 어떤 분야건 자신분야에 재해석이 가능하고 그 분야의 새로운 창의적 개념을 만들어갈 통찰의 공식을 제공하는 과정이다.</p>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <!--// 통찰<br>Insight 학과 -->
+
+
+
             </div>
-          </article>
-          <ul class="nxm-location-21__list">
-            <li class="nxm-location-21__item item-bus col-style animate-element fadeInUp start-animate animated">
-              <div class="col-style__left">
-                <h6 class="nxm-location-21__title"><i class="icon xi-bus"></i>버스</h6>
-              </div>
-              <div class="col-style__right">
-                <article class="nxm-location-21__desc-wrap">
-                  <p class="nxm-location-21__desc-title">중동네거리3</p>
-                  <ul class="nxm-location-21__sub-list">
-                    <li class="nxm-location-21__sub-item"><span class="bus bus--blue">간선</span> <span class="nxm-location-21__sub-text">304, 413</span></li>
-                  </ul>
-                </article>
-                <article class="nxm-location-21__desc-wrap">
-                  <p class="nxm-location-21__desc-title">중동시장건너</p>
-                  <ul class="nxm-location-21__sub-list">
-                    <li class="nxm-location-21__sub-item"><span class="bus bus--blue">간선</span> <span class="nxm-location-21__sub-text">349, 401, 405, 564</span></li>
-                    <li class="nxm-location-21__sub-item"><span class="bus">순환</span> <span class="nxm-location-21__sub-text">순환3-1</span></li>
-                  </ul>
-                </article>
-                <article class="nxm-location-21__desc-wrap">
-                  <p class="nxm-location-21__desc-title">수성구보건소앞</p>
-                  <ul class="nxm-location-21__sub-list">
-                    <li class="nxm-location-21__sub-item"><span class="bus bus--blue">간선</span> <span class="nxm-location-21__sub-text">304, 413</span></li>
-                    <li class="nxm-location-21__sub-item"><span class="bus bus--green">지선</span> <span class="nxm-location-21__sub-text">수성4</span></li>
-                    <li class="nxm-location-21__sub-item"><span class="bus">급행</span> <span class="nxm-location-21__sub-text">급행2</span></li>
-                  </ul>
-                </article>
-              </div>
-            </li>
-          </ul>
-
-          <!--// Organization -->
+          </div>
         </div>
+
       </section>
+      <script src="./js/floating.js"></script>
     </main>
     <!--// Main -->
 
@@ -320,14 +380,11 @@
           <div class="footer__family">
             <button type="button" id="family-btn" class="footer__family-btn">FAMILY SITES</button>
             <ul id="family-site" class="footer__family-list">
-              <li class="footer__family-item"><a href="https://www.yonsei.ac.kr/sc/" target="_blank" class="footer__family-link">세인트 스타</a></li>
-              <li class="footer__family-item"><a href="https://math.yonsei.ac.kr/math/index.do" target="_blank" class="footer__family-link">수학과</a></li>
-              <li class="footer__family-item"><a href="https://phya.yonsei.ac.kr/phya/" target="_blank" class="footer__family-link">물리학과</a></li>
-              <li class="footer__family-item"><a href="https://chem.yonsei.ac.kr/" target="_blank" class="footer__family-link">화학과</a></li>
-              <li class="footer__family-item"><a href="http://geo.yonsei.ac.kr/" target="_blank" class="footer__family-link">지구시스템과학과</a></li>
-              <li class="footer__family-item"><a href="https://astro.yonsei.ac.kr/galaxy/index.do" target="_blank" class="footer__family-link">천문우주학과</a></li>
-              <li class="footer__family-item"><a href="https://yatmos.github.io/" target="_blank" class="footer__family-link">대기과학과</a></li>
-              <li class="footer__family-item"><a href="https://nsri.yonsei.ac.kr/nslab/index.do" target="_blank" class="footer__family-link">자연과학연구원</a></li>
+              <li class="footer__family-item"><a href="http://www.museumsoo.org/default/" target="_blank" class="footer__family-link">박물관수</a></li>
+              <li class="footer__family-item"><a href="http://tktv.co.kr/" target="_blank" class="footer__family-link">한국인재능력개발교육협회</a></li>
+              <li class="footer__family-item"><a href="http://tktvedu.kr/default/" target="_blank" class="footer__family-link">TKTV인터넷방송</a></li>
+              <li class="footer__family-item"><a href="https://koreamba.or.kr/" target="_blank" class="footer__family-link">코리아모델브랜딩협회</a></li>
+              <li class="footer__family-item"><a href="http://nailme.co.kr/default/" target="_blank" class="footer__family-link">BEAUTIP BOX</a></li>
             </ul>
           </div>
         </div>
